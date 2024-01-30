@@ -5,15 +5,15 @@ name: Do something
 on:
   push
 
-environment: 
-  name: staging
-  url: https://github.com/elysium-everlasting/demo
-
 jobs:
     do_something:
         name: Do something
 
         runs-on: ubuntu-latest
+
+        environment: 
+          name: staging
+          url: https://github.com/elysium-everlasting/demo
 
         steps:
             - name: Checkout repository
