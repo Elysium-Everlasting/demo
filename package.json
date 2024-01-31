@@ -1,7 +1,7 @@
 {
 	"name": "my-app",
 	"version": "0.0.1",
-    "description": "hello, world",
+    "description": "hello, world!",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
